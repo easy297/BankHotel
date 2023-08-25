@@ -1,0 +1,183 @@
+.header-banner {
+    display: flex;
+    align-items: center;
+}
+
+.header-banner_title {
+    color: $white2;
+    font-family: MiracleRegular;
+    font-size: 220px;
+    span {
+        color: $yellow;
+    }
+}
+
+.header-banner_right {
+    display: flex;
+    align-items: center;
+    margin-left: 284px;
+    column-gap: 340px;
+
+    .title-year {
+        white-space: nowrap;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 20px;
+        padding-left: 50px;
+        border: 1px solid #575555;
+        border-radius: 30px;
+        background-image: url(../img/icons/icons.svg#star);
+        background-repeat: no-repeat;
+        background-size: 35px 35px;
+        background-position: left;
+
+
+        color: $white2;
+        font-family: HelveticaNeueLTStd;
+        font-size: 22px;
+        font-weight: 400;
+    }
+
+    img {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+.sub_title-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub_title {
+    color: $yellow2;
+    text-transform: uppercase;
+    font-family: HelveticaNeueLTStd;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.sub_title-info {
+    width: 350px;
+    color: #b8b0b0;
+
+    font-family: HelveticaNeueLTStd;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    padding-bottom: 20px;
+}
+
+
+.artCongressHall {
+    margin-top: 95px;
+    display: flex;
+    justify-content: flex-end;
+    background-image: url("../img/bookroom-bg.jpg");
+    height: 800px;
+    background-repeat: no-repeat;
+}
+
+.artCongressHall_form {
+    padding: 0;
+}
+
+select {
+    appearance: none;
+    min-width: 370px;
+    padding: 65px 47px;
+    overflow: hidden;
+    color: $white2;
+    font-family: HelveticaNeueLTStd;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+    text-transform: uppercase;
+
+    background: rgba(49, 63, 56, 0.48);
+    backdrop-filter: blur(20px);
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.select_check-in {
+    background-image: url("../img/icons/icons.svg#arrowNoborder-up");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 18px;
+}
+
+.select_check-out {
+    background-image: url("../img/icons/icons.svg#arrowNoborder-down");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 18px;
+}
+
+.artCongressHall_btn {
+    min-width: 370px;
+    background-color: $yellow;
+    padding: 65px 95px;
+    text-align: center;
+    font-family: HelveticaNeueLTStd;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 111.111% */
+    text-transform: uppercase;
+    outline: none;
+    color: #1B3B36;
+}
+
+
+.artCongressHall_contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.artCongressHall_contact-tel {
+    font-family: HelveticaNeueLTStd;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: $yellow;
+}
+
+.artCongressHall_contact-address {
+    font-family: HelveticaNeueLTStd;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: $white2;
+}
+
+.artCongressHall_contact-name {
+    text-align: right;
+    font-family: HelveticaNeueLTStd;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    width: 250px;
+    span {
+        font-family: HelveticaNeueLTStd;
+        font-size: 26px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+}
