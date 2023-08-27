@@ -1,0 +1,32 @@
+.about-us {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-us_title {
+    color: $white2;
+    font-family: Miracle;
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130px;
+    text-transform: uppercase;
+    max-width: 486px;
+    text-align: right;
+
+    span {
+        color: $yellow;
+    }
+}
+
+.about-us_subtitle {
+    color: $white2;
+    font-family: Miracle;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px; /* 120% */
+    letter-spacing: 1.5px;
+    text-transform: capitalize;
+}
